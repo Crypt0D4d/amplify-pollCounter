@@ -7,14 +7,14 @@
 
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
-        <b-card bg-variant="success" text-variant="white" header="Vote Yes" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+        <b-card bg-variant="success" img-src="https://twitter.com/iamabsinthe/status/1464922427419291650/photo/1" text-variant="white" header="Vote iamAbsinthe" class="text-center" footer-tag="footer">
+          <b-card-text>Vote Absinthe</b-card-text>
           <b-button size="lg" variant="primary"  @click="vote('yes')">Button</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
-        <b-card bg-variant="danger" text-variant="white" header="Vote No" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+        <b-card bg-variant="danger" img-src="https://pbs.twimg.com/profile_images/1461267178594861057/V4yKqxU4_400x400.jpg" text-variant="white" header="Vote Rei" class="text-center" footer-tag="footer">
+          <b-card-text>Vote Rei</b-card-text>
           <b-button size="lg" variant="primary" @click="vote('no')">Button</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
