@@ -7,7 +7,7 @@
 
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
-        <b-card bg-variant="dark" img-src="https://i.ibb.co/x8m49M4/absinthe.png" img-height="400" img-width="400" text-variant="white" header="Vote @iamabsinthe" class="text-center" footer-tag="footer">
+        <b-card bg-variant="dark" img-src="https://i.ibb.co/x8m49M4/absinthe.png" img-height="500" img-width="400" text-variant="white" header="Vote @iamabsinthe" class="text-center" footer-tag="footer">
           <b-card-text>Vote Pris</b-card-text>
           <b-button size="lg" variant="primary"  @click="vote('yes')">Vote Pris</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
