@@ -1,9 +1,9 @@
 <template>
   <div id="app" :style="{'background-image':'url(https://www.nanopass.io/assets/images/cyberpunk_hq.png)'}" class="hello" >
 
-    <h1 style="color:white;">Welcome to the Nanopass clout vote!</h1>
-    <h4 style="color:white;">Click to decide who has more clout.</h4>
-    <h4 style="color:white;">You can vote as many times as you like. Click away!</h4>
+    <h1 style="color:white;">Welcome to the Nanopass clout war!</h1>
+    <h4 style="color:white;">Click to decide who has more clout!</h4>
+    <h4 style="color:white;">You can vote as many times as you like!</h4>
 
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
