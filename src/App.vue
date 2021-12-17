@@ -9,13 +9,13 @@
       <b-card-group deck>
         <b-card bg-variant="dark" img-src="https://pbs.twimg.com/media/FFRzLnVVIAA_QHo?format=jpg&name=small" text-variant="white" header="Vote @iamabsinthe" class="text-center" footer-tag="footer">
           <b-card-text>Vote Pris</b-card-text>
-          <b-button size="lg" variant="primary"  @click="vote('yes')">Button</b-button>
+          <b-button size="lg" variant="primary"  @click="vote('yes')">Vote Pris</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
         <b-card bg-variant="danger" img-src="https://pbs.twimg.com/profile_images/1461267178594861057/V4yKqxU4_400x400.jpg" text-variant="white" header="Vote @reincanno" class="text-center" footer-tag="footer">
           <b-card-text>Vote Rei</b-card-text>
-          <b-button size="lg" variant="primary" @click="vote('no')">Button</b-button>
+          <b-button size="lg" variant="primary" @click="vote('no')">Vote Rei</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
       </b-card-group>
