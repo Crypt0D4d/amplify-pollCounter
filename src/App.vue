@@ -13,7 +13,7 @@
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
-        <b-card bg-variant="danger" img-src="https://i.ibb.co/3Wp85b2/rei.png" text-variant="white" header="Vote @reincanno" class="text-center" footer-tag="footer">
+        <b-card bg-variant="danger" img-src="https://i.ibb.co/3Wp85b2/rei.png" text-variant="white" header="Vote @reincannon" class="text-center" footer-tag="footer">
           <b-card-text>Vote Rei</b-card-text>
           <b-button size="lg" variant="primary" @click="vote('no')">Vote Rei</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
@@ -21,7 +21,7 @@
       </b-card-group>
     </b-row>
     <b-row align-h="center" class="mt-5">
-      <p style="color:white;">Questions? Ask Crypt0D4d <a href="https://twitter.com/jbesw">@Crypt0D4d</a>.</p>
+      <p style="color:white;">Questions? Ask Crypt0D4d <a href="https://twitter.com/Crypt0d4d">@Crypt0D4d</a>.</p>
     </b-row>
   </div>  
 </template>
